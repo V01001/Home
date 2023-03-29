@@ -1,1 +1,33 @@
+.img_grey {
+opacity: 0.5;
+}
+.img_grey:hover {
+ opacity: 1.0;
+}
+.header {
+  grid-column: span 3;
+}
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 500px);
+  grid-gap: 20px;
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #f8f9f9;
+}
+
+.grid div;
+{
+background-color: #28314E;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows: 500px 500px 500px;
+grid-gap: 10px;
+}
+
+
+
+
+footer {
+  grid-column: span 3;
+}
